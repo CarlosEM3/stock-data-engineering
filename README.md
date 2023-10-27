@@ -1,28 +1,20 @@
 # README
 
-Credit to the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) for this template. To complete this project, delete all template text (save for the headers) and fill in your own information.
-
-Begin reading `instructions.md` to get started.
-
 ## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
+The purpose of this project is to engineer a pipeline to analyze stock data and integrate the findings with sentiment analysis. The implication this has is being able to evaluate our data to understand and predict market trends as well as put this into practice when making more informed financial decisions.  The methods used highlight the importance of data processing, OOP principles in practice and the need to document our process. 
 
 ### Methods Used
 * Inferential Statistics
-* Machine Learning
-* Data Visualization
-* Predictive Modeling
-* etc.
+* Object Oriented Programming (Polymorphism) 
+* Validation 
+* Data Processing 
+* Stock Data Analysis 
 
 ### Technologies
-* R 
 * Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
-* etc. 
+* Statistics Module 
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+This project pulls stock data obtained by the national Portuguese consumer bank. The aim of this project is to engineer a pipeline to analyze stock data and integrate the findings with sentiment analysis. The question that is answered through this process is on the reliability of the stock data to understand market trends. Stock data analysis involves extracting meaningful insight from terabytes of data. This insight is impactful for investors and policymakers to better understand and predict market trends. In the context of this project, the sentiment analysis for the daily news headlines has important impact on traders, investors and for informing economic events. 
+
+Part of this process included data processing and cleaning in order to efficiently maintain data reliability. One of the methods used was polymorphism which is effective at keeping cleaner code. To understand the statistical characteristics of the data, we used the metrics average, median and sample standard deviation for the stock data. 
